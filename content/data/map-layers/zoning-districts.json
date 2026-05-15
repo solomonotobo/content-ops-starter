@@ -1,0 +1,23 @@
+{
+  "type": "MapLayerConfig",
+  "id": "zoning-districts",
+  "label": "Zoning Districts",
+  "description": "Illustrative zoning district polygons for the demo map.",
+  "sourceUrl": "local:sample-zoning-features",
+  "sourceLayer": "zoning-districts",
+  "paint": {
+    "fillOpacity": 0.42,
+    "strokeColor": "#1f2937",
+    "strokeWidth": 1
+  },
+  "layout": {
+    "visibility": "visible"
+  },
+  "legend": [
+    { "label": "C6-4 Commercial", "color": "#2563eb" },
+    { "label": "R8 Residential", "color": "#16a34a" },
+    { "label": "M1-5 Manufacturing", "color": "#f97316" }
+  ],
+  "defaultVisible": true,
+  "attribution": "Demo zoning data bundled with this starter."
+}

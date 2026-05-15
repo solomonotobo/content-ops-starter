@@ -17,6 +17,8 @@ import { Header } from './Header';
 import { ImageBlock } from './ImageBlock';
 import { ImageGallerySection } from './ImageGallerySection';
 import { Link } from './Link';
+import { MapLayerConfig } from './MapLayerConfig';
+import { MapLayerLegendItem } from './MapLayerLegendItem';
 import { PageLayout } from './PageLayout';
 import { PagedPostsSection } from './PagedPostsSection';
 import { Person } from './Person';
@@ -63,6 +65,8 @@ export const allModels = {
     ImageBlock,
     ImageGallerySection,
     Link,
+    MapLayerConfig,
+    MapLayerLegendItem,
     PageLayout,
     PagedPostsSection,
     Person,
