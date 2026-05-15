@@ -1,0 +1,21 @@
+{
+  "type": "MapLayerConfig",
+  "id": "tax-lots",
+  "label": "Tax Lots",
+  "description": "Illustrative tax-lot footprints with BBL, owner, land-use, and area attributes.",
+  "sourceUrl": "local:sample-parcels",
+  "sourceLayer": "tax-lots",
+  "paint": {
+    "fillOpacity": 0.18,
+    "strokeColor": "#111827",
+    "strokeWidth": 1.5
+  },
+  "layout": {
+    "visibility": "visible"
+  },
+  "legend": [
+    { "label": "Tax lot footprint", "color": "#f8fafc" }
+  ],
+  "defaultVisible": true,
+  "attribution": "Demo parcel data bundled with this starter."
+}
